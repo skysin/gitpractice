@@ -42,7 +42,17 @@
  `touch .gitignore`<br>
  提交更新:<br>
  `git commit -m "xxxx"`<br>
- 
+ 删除文件:<br>
+ `git rm`<br>
+ 从暂存区移除文件但不删除:<br>
+ `git rm xxx --cache`<br>
+ 移动文件（重命名）:<br>
+ `git mv file_from file_to`<br>
+ 查看历史:<br>
+ `git log`<br>
+ 推送到远程仓库:<br>
+ `git push origin master`<br>
+
 
 
 
